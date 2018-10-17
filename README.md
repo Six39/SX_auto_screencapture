@@ -78,32 +78,9 @@ https://chromedriver.storage.googleapis.com/index.html?path=2.43/
 
 ![](/images/Scsh_desktop.png)
 
+<b>Video de muestra:</b>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[![Screenshot_automatico](https://i.ytimg.com/vi/Lkgu7nQzEaw/hqdefault.jpg)](https://youtu.be/Lkgu7nQzEaw)
 
 
 
