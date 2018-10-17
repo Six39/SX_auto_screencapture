@@ -66,7 +66,7 @@ try:
                 if hora == nueva_hora.strftime("%H:%M:%S"):
                     break
 
-            for i in range(0, 1, num_caps):
+            for i in range(0, num_caps, 1):
                 if cap_web_esc == "Y":
                     time.sleep(1)  # Capturar pantalla sitio web + escritorio
                     driver = webdriver.Chrome(DRIVER)

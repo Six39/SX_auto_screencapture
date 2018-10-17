@@ -9,7 +9,7 @@ El repositorio cuenta con la versión de código libre "SX_Capture_screen" y emp
 * Python v3
 * Google Chrome
 * Selenium webdriver (chrome)
-* Módulos adicionales python: Configparser, Selenium
+* Módulos adicionales python: Configparser, Selenium, pyautogui
 
 <b>Requerimientos para usar el ejecutable</b>
 
