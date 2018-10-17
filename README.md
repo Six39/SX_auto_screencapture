@@ -4,20 +4,20 @@ Programa en Python que permite la automatización de captura de pantalla. Con 5 
 
 El repositorio cuenta con la versión de código libre "SX_Capture_screen" y empaquetado para uso en windows "SX_Generador_screenshots_empaquetado".
 
-Requerimientos para editar / mejorar código
+<b>Requerimientos para editar / mejorar código</b>
 
 * Python v3
 * Google Chrome
 * Selenium webdriver (chrome)
 * Módulos adicionales python: Configparser, Selenium
 
-Requerimientos para usar el ejecutable
+<b>Requerimientos para usar el ejecutable</b>
 
 * Google Chrome
 * Selenium webdriver (incluído)
 * Parametros del archivo config (incluído)
 
-Funciones e instrucciones:
+<b>Funciones e instrucciones:</b>
 
 Una vez empaquetado el código (o descargandolo así), debes editar el fichero de configuración e ingresar los parámetros necesarios para automatizar tus capturas de pantalla en el fichero "parametros.cfg". El contenido del archivo es el siguiente:
 
@@ -35,7 +35,7 @@ TIEMPO. Permite indicar cuantas capturas de pantalla necesitaremos en cada ciclo
 
 ADICIONALES. Te permite decidir la posición en px que tendrá que moverse el scroll verticalmente en caso de necesitar este tipo de captura de pantalla, la ubicación del controlador (por defecto esta en el mismo directorio) y el sitio web que necesitas capturar en caso de ser necesario este tipo de captura de pantalla.
 
-Liga de descarga del controlador en caso de ser necesario:
+Liga de descarga del controlador selenium:
 
 https://sites.google.com/a/chromium.org/chromedriver/downloads
 
@@ -43,6 +43,40 @@ Versión 2.43
 
 https://chromedriver.storage.googleapis.com/index.html?path=2.43/
 
+<h3><b>Capturas de pantalla:</b></h3>
+
+<b>Ventana de ejecución del programa:</b>
+
+![](images/SC_01.png)
+![](images/SC_02.png)
+
+<b>Carpeta con las capturas generadas:</b>
+
+![](images/SC_03.JPG)
+
+<b>Archivo de configuración:</b>
+
+![](images/SC_04.JPG)
+
+<b>Captura página y escritorio:</b>
+
+![](/images/Scsh_web_desktop.png)
+
+<b>Captura página con posición de scroll y escritorio:</b>
+
+![](/images/Scsh_web_pos_desktop.png)
+
+<b>Captura página solamente:</b>
+
+![](/images/Scsh_web.png)
+
+<b>Captura página con posición de scroll solamente:</b>
+
+![](/images/Scsh_web_pos.png)
+
+<b>Captura de pantalla (normal-solo escritorio):</b>
+
+![](/images/Scsh_desktop.png)
 
 
 
