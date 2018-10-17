@@ -1,0 +1,1 @@
+Carpeta donde se guardarán las capturas de pantalla generadas con formato YYYYMMDD-HH-MM-SS
