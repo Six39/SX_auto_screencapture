@@ -84,8 +84,7 @@ try:
                     driver.get('http://%s' % op3)
                     time.sleep(1)
                     alturapag = int(driver.get_window_size()['height'])
-                    print("\naltura de la página: ", alturapag)
-                    pos_scroll += pos_scroll
+                    print("\naltura de la página: ", alturapag)                    
                     driver.maximize_window()
                     driver.execute_script('window.scrollTo(0, %s)' % pos_scroll)
                     time.sleep(cwpe)
@@ -111,8 +110,7 @@ try:
                     driver.get('http://%s' % op3)
                     time.sleep(1)
                     alturapag = int(driver.get_window_size()['height'])
-                    print("\naltura de la página: ", alturapag)
-                    pos_scroll = pos_scroll + alturapag
+                    print("\naltura de la página: ", alturapag)                    
                     driver.execute_script('window.scrollTo(0, %s)' % pos_scroll)
                     time.sleep(cwp)
                     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -124,11 +122,10 @@ try:
                     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
                     pyautogui.screenshot("./screenshots/%s-Scsh_desktop.png" % now)
 
-            print("Proceso de captura número", i + 1, "de", num_caps, " completada")
-            print("Se han guardado con éxito, siguiente ciclo...")
+            print("Proceso de captura: repeticiones", i + 1, "de", num_caps, " completadas")
+            print("Se han guardado con éxito, esperando siguiente ciclo...")
             time.sleep(2)
-            os.system('cls')
-            print("nuevo")
+            os.system('cls')            
         ok()
 
 except KeyboardInterrupt:
