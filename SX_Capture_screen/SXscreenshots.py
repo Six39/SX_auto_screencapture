@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+# https://github.com/six39
 from configparser import ConfigParser
 import time
 import sys
@@ -84,7 +84,7 @@ try:
                     driver.get('http://%s' % op3)
                     time.sleep(1)
                     alturapag = int(driver.get_window_size()['height'])
-                    print("\naltura de la página: ", alturapag)                    
+                    print("\naltura de la página: ", alturapag)
                     driver.maximize_window()
                     driver.execute_script('window.scrollTo(0, %s)' % pos_scroll)
                     time.sleep(cwpe)
@@ -110,7 +110,7 @@ try:
                     driver.get('http://%s' % op3)
                     time.sleep(1)
                     alturapag = int(driver.get_window_size()['height'])
-                    print("\naltura de la página: ", alturapag)                    
+                    print("\naltura de la página: ", alturapag)
                     driver.execute_script('window.scrollTo(0, %s)' % pos_scroll)
                     time.sleep(cwp)
                     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -125,7 +125,7 @@ try:
             print("Proceso de captura: repeticiones", i + 1, "de", num_caps, " completadas")
             print("Se han guardado con éxito, esperando siguiente ciclo...")
             time.sleep(2)
-            os.system('cls')            
+            os.system('cls')
         ok()
 
 except KeyboardInterrupt:

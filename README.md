@@ -8,13 +8,13 @@ El repositorio cuenta con la versión de código libre "SX_Capture_screen" y emp
 
 * Python v3
 * Google Chrome
-* Selenium webdriver (chrome)
-* Módulos adicionales python: Configparser, Selenium, pyautogui
+* Selenium Chromedriver
+* Módulos adicionales python: Configparser, Selenium, Pyautogui
 
 <b>Requerimientos para usar el ejecutable</b>
 
 * Google Chrome
-* Selenium webdriver (incluído)
+* Selenium chromedriver (incluído)
 * Parametros del archivo config (incluído)
 
 <b>Funciones e instrucciones:</b>
@@ -35,11 +35,11 @@ TIEMPO. Permite indicar cuantas capturas de pantalla necesitaremos en cada ciclo
 
 ADICIONALES. Te permite decidir la posición en px que tendrá que moverse el scroll verticalmente en caso de necesitar este tipo de captura de pantalla, la ubicación del controlador (por defecto esta en el mismo directorio) y el sitio web que necesitas capturar en caso de ser necesario este tipo de captura de pantalla.
 
-Liga de descarga del controlador selenium:
+Descargar Python 3.7 (sugerido):
 
-https://sites.google.com/a/chromium.org/chromedriver/downloads
+https://www.python.org/downloads/release/python-371/
 
-Versión 2.43
+Descargar Chromedriver Versión 2.43:
 
 https://chromedriver.storage.googleapis.com/index.html?path=2.43/
 
@@ -82,7 +82,7 @@ https://chromedriver.storage.googleapis.com/index.html?path=2.43/
 
 [![Screenshot_automatico](https://i.ytimg.com/vi/Lkgu7nQzEaw/hqdefault.jpg)](https://youtu.be/Lkgu7nQzEaw)
 
-
+Nota: Se ha compilado el ejecutable con binarios de 32 bits, para hacerlo compatible con cualquier arquitectura.
 
 
 
